@@ -66,7 +66,7 @@ int main()
             // Calling generatepass function to  print the generated password
             generatepass(n);
             // Asking  for continuation
-            cout << "\nDo you want to continue? (Y to continue OR Press any key to exit): ";
+            cout << "\nDo you want to generate another password? (Y to continue OR Press any key to exit): ";
             cin >> cont;
             if (cont == 'Y' || cont == 'y')
                 continue;
