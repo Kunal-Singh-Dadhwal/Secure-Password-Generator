@@ -5,7 +5,7 @@
 using namespace std;
 void generatepass(int n)
 { // intitializing password
-    string password = "";
+    string password = " ";
     // taking the sets of lowercase,uppercase,digits and special characters.
     char lowercase[] = "abcdefghijklmnopqrstuvwxyz";
     char uppercase[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
